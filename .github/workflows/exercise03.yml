@@ -1,0 +1,10 @@
+name: Exercise 03 CI
+
+on: push
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Confirm workflow runs
+        run: echo "COMP3104 GitHub Actions is working"
